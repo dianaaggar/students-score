@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,43 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+.App {
+  /* border: 5px solid blue; */
+  display: flex;
+  justify-content: space-evenly;
+}
+.mainCont{
+  /* border: 5px solid blue; */
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+  font-weight: bold;
+}
+
+.student{
+  width: 32%;
+  border: 5px solid blue;
+}
+
+h1{
+  text-align: center;
+  color: red;
+  text-decoration: underline;
+}
+p{
+  font-size: 20px;
+}
+
+.rightSide, .rightSide{
+  text-align: center;
+}
+
+h2{
+  color: red;
+  text-align: center;
+  text-decoration: underline;
+
 }
